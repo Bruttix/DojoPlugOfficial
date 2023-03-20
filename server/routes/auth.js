@@ -25,7 +25,7 @@ router.post("/reset-password", resetPassword);
 
 //router.post("/subscribe", requireSignin, currentUser);
 
-router.get("/account", requireSignin, roles);
+//router.get("/account", requireSignin, subscriptions);
 
 
 module.exports = router;

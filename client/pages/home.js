@@ -26,7 +26,7 @@ const Home = ({ history }) => {
         state.user &&
         state.user.subscriptions &&
         state.user.subscriptions.resumes_at &&
-        history.push("/account");
+        history.push("/");
     };
 
     state && state.user && isPaused();

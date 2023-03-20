@@ -101,7 +101,7 @@ const TopNav = () => {
 
            */}
 
-       {user && user.role && user.role.includes("Subscriber") ? (
+       {user && user.role && user.role.includes("Subscriber")? (
         <>
           <Item
             key="/subscribe/become-bronze"
@@ -112,6 +112,15 @@ const TopNav = () => {
               <a>Upgrade</a>
             </Link>
           </Item>
+          
+        </>
+      ) : (
+        <>
+          
+        </>
+      )} 
+    {user && user.role && user.role.includes("Subscriber") && !user.role.includes("Instructor") ? (
+        <>
           <Item
             key="/user/become-instructor"
             onClick={(e) => setCurrent(e.key)}
@@ -126,8 +135,7 @@ const TopNav = () => {
         <>
           
         </>
-      )} 
-
+   )} 
       {user === null && (
         <>
           <Item

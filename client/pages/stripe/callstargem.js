@@ -19,7 +19,7 @@ const StripeCallback = () => {
           payload: res.data,
         });
         window.localStorage.setItem("user", JSON.stringify(res.data));
-        window.location.href = "/instructor";
+        window.location.href = "/user/course/stargem";
       });
     }
   }, [user]);
@@ -30,7 +30,7 @@ const StripeCallback = () => {
       spin
       className="d-flex justify-content-center display-1 text-danger p-5"
           />
-          <div style={{ textAlign: "center" }}>CALL STARGEM.JS WORKED</div>
+          <div style={{ textAlign: "center" }}>Success! You've been upgraded to Stargem!</div>
       </>
   );
 };

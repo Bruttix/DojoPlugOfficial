@@ -82,7 +82,7 @@ export const login = async (req, res) => {
     // send token in cookie
     res.cookie("token", token, {
       httpOnly: true,
-      // secure: true, // only works on https
+      secure: true, // only works on https
     });
     // send user as json response
     res.json(user);

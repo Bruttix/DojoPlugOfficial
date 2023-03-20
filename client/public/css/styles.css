@@ -282,10 +282,42 @@ img .becomeInstructorBG {
     background-color: #0f0d0dd4 !important;
     box-shadow: 2px 2px 1px 3px var(--orange-color),inset -1px 1px 4px 1px var(--orange-color),inset 3px 3px 7px 1px var(--orange-color);
 }
+.accountNav {
+    border: 2px solid var(--orange-color) !important;
+    color: var(--orange-color);
+    display: flex;
+    justify-content: center;
+    padding-top: 55px;
+    border-radius: 25%;
+    background-color: #0f0d0dd4 !important;
+    box-shadow: 2px 2px 1px 3px var(--orange-color),inset -1px 1px 4px 1px var(--orange-color),inset 3px 3px 7px 1px var(--orange-color);
+}
+.accountNav > h1 {
+    color: var(--orange-color);
+}
+.accountHead > h1 {
+    color: var(--orange-color) !important;
+    text-align: center;
+}
+.accountHead{ 
+    display: flex;
+    width: 100%;
+    justify-content:center;
+}
+.manageSubPara{
+    text-align: center;
+}
+.manageSubBtn {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.manageSubSection{
+    width: 100%;
+}
 .topNavHeaderUpdate .ant-menu-overflowed-submenu .ant-menu-submenu-title {
     color: var(--orange-color);
     font-size: 50px !important;
-
 }
 .topNavHeaderUpdate .ant-menu-overflowed-submenu .ant-menu-submenu-title:hover {
     color: var(--orange-color);
@@ -438,7 +470,7 @@ h5,h4,h2 {
     left: 0;
     padding-top: 65px !important;
     width: 170px !important;
-    z-index: 7;
+    z-index: 17;
     text-align: center !important;
     background: linear-gradient(to right, #040302, #551313, #040302) !important;
 }
@@ -510,6 +542,10 @@ h5,h4,h2 {
 .ant-menu-item > span{
     color: #ff0;
 }
+.ant-menu-item:hover > span, .ant-menu-item:hover span > a {
+    color: #d1f914 !important;
+    text-shadow: 0 -1px 0 #0D0909, 0 -2px 2px #e11, 0 -1px 1px #ff8000, 2px -5px 20px #000 !important;
+}
 .alert-primary {
     background-image: linear-gradient(to right, #040302, #551313, #040302) !important;
     border: var(--orange-color) 0.5px solid;
@@ -529,9 +565,15 @@ h5,h4,h2 {
 
 .mainLanderInfoBox {
     margin-bottom:100px !important;
+    width: 70% !important;
 }
 /*tier subscription pages begin*/
-
+.Toastify__toast--default {
+    background-image: linear-gradient(to right, #040302, #551313, #040302) !important;
+    color: #e1e80a !important;
+    border-radius: 10% !important;
+    border: 1px solid var(--orange-color);
+}
 .tierLander {
     text-align: center;
     background: transparent;

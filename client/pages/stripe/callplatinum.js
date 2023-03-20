@@ -30,7 +30,7 @@ const StripeCallback = () => {
       spin
       className="d-flex justify-content-center display-1 text-danger p-5"
           />
-          <div style={{ textAlign: "center" }}>CALL PLATINUM.JS WORKED</div>
+          <div style={{ textAlign: "center" }}>Success! You've been upgraded to Platinum!</div>
       </>
   );
 };

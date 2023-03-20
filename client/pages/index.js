@@ -119,7 +119,6 @@ const Index = ({ courses }) => {
                                    <li className="perks">Exclusive training routine insights</li>
                                    <li className="perks">Access to Exclusive Blog posts</li>
                                    <li className="perks">Exclusive Dojo Lessons Access </li>
-                                   <li className="perks">Access All Subscriber posts</li>
                                    <li className="perks">Access Available Instructors Lessons</li>
                                    <li className="perks">Access Exclusive News Feed</li>
                                </p>
@@ -148,7 +147,6 @@ const Index = ({ courses }) => {
                                    <li className="perks">Exclusive training routine insights</li>
                                    <li className="perks">Access to Exclusive Blog posts</li>
                                    <li className="perks">Exclusive Dojo Lessons Access </li>
-                                   <li className="perks">Access All Subscriber posts</li>
                                    <li className="perks">Access Available Instructors Lessons</li>
                                    <li className="perks">Access Exclusive News Feed</li>
                                </p>
@@ -178,7 +176,6 @@ const Index = ({ courses }) => {
                                    <li className="perks">Exclusive training routine insights</li>
                                    <li className="perks">Access to Exclusive Blog posts</li>
                                    <li className="perks">Exclusive Dojo Lessons Access </li>
-                                   <li className="perks">Access All Subscriber posts</li>
                                    <li className="perks">Access Available Instructors Lessons</li>
                                    <li className="perks">Access Exclusive News Feed</li>
                                </p>
@@ -210,7 +207,6 @@ const Index = ({ courses }) => {
                                    <li className="perks">Exclusive training routine insights.</li>
                                    <li className="perks">Access to Exclusive Blog posts</li>
                                    <li className="perks">Exclusive Dojo Lessons Access </li>
-                                   <li className="perks">Access All Subscriber posts</li>
                                    <li className="perks">Access Available Instructors Lessons</li>
                                    <li className="perks">Access Exclusive News Feed</li>
                                </p>
@@ -242,7 +238,6 @@ const Index = ({ courses }) => {
                                    <li className="perks">Exclusive training routine insights.</li>
                                    <li className="perks">Access to Exclusive Blog posts</li>
                                    <li className="perks">Exclusive Dojo Lessons Access </li>
-                                   <li className="perks">Access All Subscriber posts</li>
                                    <li className="perks">Access Available Instructors Lessons</li>
                                    <li className="perks">Access Exclusive News Feed</li>
                                </p>

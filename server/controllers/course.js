@@ -443,7 +443,7 @@ export const paidSilver = async (req, res) => {
       // purchase details
       line_items: [{
           
-              price: "price_1MmjrqBcG7EIton30kuWXT3D",
+          price: "price_1MmjsPBcG7EIton3LuJHmsAf",
               // For metered billing, do not pass quantity
               quantity: 1,
           
@@ -657,7 +657,7 @@ export const getSubscriptionStatus = async () => {
         // update user in context
         setState(auth);
         setTimeout(() => {
-          history.push("/account");
+          history.push("/");
         }, 1000);
       }
 };

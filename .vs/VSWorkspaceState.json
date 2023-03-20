@@ -2,16 +2,14 @@
   "ExpandedNodes": [
     "",
     "\\client",
-    "\\client\\components",
-    "\\client\\components\\nav",
-    "\\client\\components\\routes",
     "\\client\\pages",
-    "\\client\\pages\\user\\course",
-    "\\client\\public",
-    "\\client\\public\\images",
+    "\\client\\pages\\course",
+    "\\client\\pages\\stripe",
+    "\\client\\pages\\stripe\\success",
+    "\\client\\pages\\user",
     "\\server",
     "\\server\\utils"
   ],
-  "SelectedNode": "\\client\\pages\\index.js",
+  "SelectedNode": "\\client\\pages\\course\\[slug].js",
   "PreviewInSolutionExplorer": false
 }
