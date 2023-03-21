@@ -10,7 +10,7 @@ import { Provider } from "../context";
 function MyApp({ Component, pageProps }) {
   return (
     <Provider>
-      <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon"/>
+      <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
       <ToastContainer position="top-center" theme="colored"/>
       <TopNav />
       <Component {...pageProps} />

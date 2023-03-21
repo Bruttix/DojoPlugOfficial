@@ -283,9 +283,10 @@ img .becomeInstructorBG {
     box-shadow: 2px 2px 1px 3px var(--orange-color),inset -1px 1px 4px 1px var(--orange-color),inset 3px 3px 7px 1px var(--orange-color);
 }
 .accountNav {
-    border: 2px solid var(--orange-color) !important;
+    margin-top: 50px;
+    border: 1px solid var(--orange-color) !important;
     color: var(--orange-color);
-    display: flex;
+    display: block;
     justify-content: center;
     padding-top: 55px;
     border-radius: 25%;
@@ -574,6 +575,11 @@ h5,h4,h2 {
     border-radius: 10% !important;
     border: 1px solid var(--orange-color);
 }
+.manageSubscribeContainer{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
 .tierLander {
     text-align: center;
     background: transparent;
@@ -583,7 +589,7 @@ h5,h4,h2 {
     border: 1px #000 solid;
 }
 .tierPage{
-    display: flex;
+    display: block;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -593,11 +599,11 @@ h5,h4,h2 {
     width: 100%;
 }
 .tierTitleBronze {
-    display: flex;
+    padding: 9px;
+    display: inline;
     text-align: center;
     justify-content: center;
     align-items: center;
-    position: absolute;
     top: 10px;
     z-index: 25;
     font-size: 40px;
@@ -611,19 +617,22 @@ h5,h4,h2 {
     color: var(--bronze) !important;
     margin-right: 20px;
 }
-.bronzeHome{
+.bronzeHome {
     display: grid;
+    justify-content: center;
+    margin-top: -100px;
 }
 .bronzeHome .moreInfoBtn{
     text-shadow: none !important;
+
 }
 
 .tierTitleSilver {
-    display: flex;
+    padding: 9px;
+    display: inline;
     text-align: center;
     justify-content: center;
     align-items: center;
-    position: absolute;
     top: 10px;
     z-index: 25;
     font-size: 40px;
@@ -636,19 +645,21 @@ h5,h4,h2 {
     color: var(--silver) !important;
     margin-right: 20px;
 }
-.silverHome{
+.silverHome {
     display: grid;
+    justify-content: center;
+    margin-top: -100px;
 }
 .silverHome .moreInfoBtn{
     text-shadow: none !important;
 }
 
 .tierTitleGold {
-    display: flex;
+    padding: 9px;
+    display: inline;
     text-align: center;
     justify-content: center;
     align-items: center;
-    position: absolute;
     top: 10px;
     z-index: 25;
     font-size: 40px;
@@ -663,17 +674,19 @@ h5,h4,h2 {
 }
 .goldHome{
     display: grid;
+    justify-content: center;
+    margin-top: -100px;
 }
 .goldHome .moreInfoBtn{
     text-shadow: none !important;
 }
 
 .tierTitlePlatinum {
-    display: flex;
+    padding: 9px;
+    display: inline;
     text-align: center;
     justify-content: center;
     align-items: center;
-    position: absolute;
     top: 10px;
     z-index: 25;
     font-size: 40px;
@@ -686,19 +699,21 @@ h5,h4,h2 {
     color: var(--platinum) !important;
     margin-right: 20px;
 }
-.platinumHome{
+.platinumHome {
     display: grid;
+    margin-top: -100px;
+    justify-content: center;
 }
 .platinumHome .moreInfoBtn{
     text-shadow: none !important;
 }
 
 .tierTitleDiamond {
-    display: flex;
+    padding: 9px;
+    display: inline;
     text-align: center;
     justify-content: center;
     align-items: center;
-    position: absolute;
     top: 10px;
     z-index: 25;
     font-size: 40px;
@@ -711,19 +726,21 @@ h5,h4,h2 {
     color: var(--diamond) !important;
     margin-right: 20px;
 }
-.diamondHome{
+.diamondHome {
     display: grid;
+    margin-top: -100px;
+    justify-content: center;
 }
 .diamondHome .moreInfoBtn{
     text-shadow: none !important;
 }
 
 .tierTitleStargem {
-    display: flex;
+    padding: 9px;
+    display: inline;
     text-align: center;
     justify-content: center;
     align-items: center;
-    position: absolute;
     top: 10px;
     z-index: 25;
     font-size: 40px;
@@ -736,14 +753,23 @@ h5,h4,h2 {
     color: #C260FF !important;
     margin-right: 20px;
 }
-.stargemHome{
+.stargemHome {
     display: grid;
+    margin-top: -100px;
+    justify-content: center;
 }
 .stargemHome .moreInfoBtn{
     text-shadow: none !important;
 }
 
-
+.ROOTCSS {
+    height: 650px;
+    width: 100%;
+}
+.appChatContainer{
+    display: flex;
+    background: red !important;
+}
 .bronzeLander:only-of-type {
     height: 100% !important;
     width: 100vw !important;
@@ -1816,7 +1842,7 @@ input[type='checkbox'] {
 .bannerAlign{
     padding-bottom: -25px;
     margin-bottom: -450px;
-    margin-top: 210px;
+    margin-top: 275px;
 }
 .bannerAlignFirst {
     padding-bottom: -25px;

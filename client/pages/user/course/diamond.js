@@ -86,12 +86,13 @@ const SingleCourse = () => {
                      </div>
                  </div>
                </div>
+                 <div className="manageSubscribeContainer">
                    <div className="accountNav">
                      <div className="container">
                        <div className="row accountHead">
                          <UserOutlined className="display-4" />
                          <h1>Manage Account</h1><br></br>
-                         <p className="lead manageSubPara pb-4">Subscription status</p>
+                         <p className="lead manageSubPara pb-4">Diamond status</p>
                          {/* <pre>{JSON.stringify(roles, null, 4)}</pre> */}
                        </div>
                      
@@ -139,7 +140,8 @@ const SingleCourse = () => {
                        </div>
                            <p className="lead pb-4">Adjust your Subscription in a Simple Click!</p>
                      </div>
-                    </div>
+                      </div>
+                 </div>
               </div>
           </h2>
       </DiamondRoute>
